@@ -5,3 +5,12 @@
 function testMath(a, b, c, d) {
     return Math.floor(Math.max(a, b, c, d)/Math.min(a, b, c, d));
 }
+
+
+Вопрос:
+В этом задании вам необходимо выполнить возведение переменной a в степень b и возврат значения из функции.
+
+Ответ:
+function testMath(a, b) {
+    return Math.pow(a,b);
+}
